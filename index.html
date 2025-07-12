@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script>
+        const lang = navigator.language || navigator.userLanguage;
+        if (lang.startsWith('ru')) {
+            window.location.href = 'index_ru.html';
+        } else if (lang.startsWith('kk')) {
+            window.location.href = 'index_kz.html';
+        } else {
+            window.location.href = 'index_en.html';
+        }
+    </script>
+</head>
+
+<body>
+    <p>Redirecting...</p>
+</body>
+
+</html>
